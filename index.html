@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="col-3">
+
+        <button onclick="increaseTeam1Score()" type="button" class="btn btn-light">team1</button>
+        <p id="team1Score"></p>
+
+    </div>
+    <div class="col-3">
+
+        <button onclick="increaseTeam2Score()" type="button" class="btn btn-light">team2</button>
+        <p id="team2Score"></p>
+
+    </div>
+
+    <div class="col-3">
+
+        <button onclick="resetTeam1(),resetTeam2()" type="button" class="btn btn-light">reset</button>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
