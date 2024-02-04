@@ -6,8 +6,8 @@ function increaseTeam1Score() {
     var team1Score = 1 + team1++
     document.getElementById("team1Score").innerText = team1Score;
 
-    if (team1Score > 20) {
-        return
+    if (team1 > 20) {
+        resetTeam1()
     }
 
 
